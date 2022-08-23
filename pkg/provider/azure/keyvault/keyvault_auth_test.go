@@ -30,9 +30,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	clientfake "sigs.k8s.io/controller-runtime/pkg/client/fake"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	v1 "github.com/external-secrets/external-secrets/apis/meta/v1"
-	utilfake "github.com/external-secrets/external-secrets/pkg/provider/util/fake"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	v1 "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
+	utilfake "github.com/diegutierrez/external-secret-conjur/pkg/provider/util/fake"
 )
 
 var vaultURL = "https://local.vault.url"

@@ -20,8 +20,8 @@ import (
 	v1 "k8s.io/api/core/v1"
 
 	// nolint
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	"github.com/external-secrets/external-secrets/e2e/framework"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework"
 )
 
 // azure keyvault type=cert should get a certificate from the api.

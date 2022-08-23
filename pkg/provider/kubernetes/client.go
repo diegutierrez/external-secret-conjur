@@ -21,9 +21,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	"github.com/external-secrets/external-secrets/pkg/find"
-	"github.com/external-secrets/external-secrets/pkg/utils"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	"github.com/diegutierrez/external-secret-conjur/pkg/find"
+	"github.com/diegutierrez/external-secret-conjur/pkg/utils"
 )
 
 func (c *Client) GetSecret(ctx context.Context, ref esv1beta1.ExternalSecretDataRemoteRef) ([]byte, error) {

@@ -22,12 +22,12 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
 
 	// Loading registered providers.
-	_ "github.com/external-secrets/external-secrets/pkg/provider/register"
-	"github.com/external-secrets/external-secrets/pkg/template"
-	utils "github.com/external-secrets/external-secrets/pkg/utils"
+	_ "github.com/diegutierrez/external-secret-conjur/pkg/provider/register"
+	"github.com/diegutierrez/external-secret-conjur/pkg/template"
+	utils "github.com/diegutierrez/external-secret-conjur/pkg/utils"
 )
 
 // merge template in the following order:

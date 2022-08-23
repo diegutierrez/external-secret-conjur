@@ -27,8 +27,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	"github.com/external-secrets/external-secrets/pkg/controllers/crds"
-	"github.com/external-secrets/external-secrets/pkg/controllers/webhookconfig"
+	"github.com/diegutierrez/external-secret-conjur/pkg/controllers/crds"
+	"github.com/diegutierrez/external-secret-conjur/pkg/controllers/webhookconfig"
 )
 
 var certcontrollerCmd = &cobra.Command{

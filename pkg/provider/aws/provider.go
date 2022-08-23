@@ -25,15 +25,15 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	awsauth "github.com/external-secrets/external-secrets/pkg/provider/aws/auth"
-	"github.com/external-secrets/external-secrets/pkg/provider/aws/parameterstore"
-	"github.com/external-secrets/external-secrets/pkg/provider/aws/secretsmanager"
-	"github.com/external-secrets/external-secrets/pkg/provider/aws/util"
-	"github.com/external-secrets/external-secrets/pkg/utils"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	awsauth "github.com/diegutierrez/external-secret-conjur/pkg/provider/aws/auth"
+	"github.com/diegutierrez/external-secret-conjur/pkg/provider/aws/parameterstore"
+	"github.com/diegutierrez/external-secret-conjur/pkg/provider/aws/secretsmanager"
+	"github.com/diegutierrez/external-secret-conjur/pkg/provider/aws/util"
+	"github.com/diegutierrez/external-secret-conjur/pkg/utils"
 )
 
-// https://github.com/external-secrets/external-secrets/issues/644
+// https://github.com/diegutierrez/external-secret-conjur/issues/644
 var _ esv1beta1.Provider = &Provider{}
 
 // Provider satisfies the provider interface.

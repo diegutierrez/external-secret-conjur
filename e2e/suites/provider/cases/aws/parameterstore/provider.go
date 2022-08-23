@@ -32,11 +32,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	esmetav1 "github.com/external-secrets/external-secrets/apis/meta/v1"
-	"github.com/external-secrets/external-secrets/e2e/framework"
-	"github.com/external-secrets/external-secrets/e2e/framework/log"
-	common "github.com/external-secrets/external-secrets/e2e/suites/provider/cases/aws"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	esmetav1 "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework/log"
+	common "github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/aws"
 )
 
 type Provider struct {

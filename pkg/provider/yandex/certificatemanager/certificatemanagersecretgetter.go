@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/external-secrets/external-secrets/pkg/provider/yandex/certificatemanager/client"
-	"github.com/external-secrets/external-secrets/pkg/provider/yandex/common"
+	"github.com/diegutierrez/external-secret-conjur/pkg/provider/yandex/certificatemanager/client"
+	"github.com/diegutierrez/external-secret-conjur/pkg/provider/yandex/common"
 )
 
 const (

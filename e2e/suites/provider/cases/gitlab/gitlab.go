@@ -22,8 +22,8 @@ import (
 	// nolint
 	. "github.com/onsi/ginkgo/v2"
 
-	"github.com/external-secrets/external-secrets/e2e/framework"
-	"github.com/external-secrets/external-secrets/e2e/suites/provider/cases/common"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework"
+	"github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/common"
 )
 
 var _ = Describe("[gitlab]", Label("gitlab"), func() {

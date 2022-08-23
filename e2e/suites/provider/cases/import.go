@@ -16,11 +16,11 @@ package suite
 import (
 
 	// import different e2e test suites.
-	_ "github.com/external-secrets/external-secrets/e2e/suites/provider/cases/aws/parameterstore"
-	_ "github.com/external-secrets/external-secrets/e2e/suites/provider/cases/aws/secretsmanager"
-	_ "github.com/external-secrets/external-secrets/e2e/suites/provider/cases/azure"
-	_ "github.com/external-secrets/external-secrets/e2e/suites/provider/cases/gcp"
-	_ "github.com/external-secrets/external-secrets/e2e/suites/provider/cases/kubernetes"
-	_ "github.com/external-secrets/external-secrets/e2e/suites/provider/cases/template"
-	_ "github.com/external-secrets/external-secrets/e2e/suites/provider/cases/vault"
+	_ "github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/aws/parameterstore"
+	_ "github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/aws/secretsmanager"
+	_ "github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/azure"
+	_ "github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/gcp"
+	_ "github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/kubernetes"
+	_ "github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/template"
+	_ "github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/vault"
 )

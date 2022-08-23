@@ -20,7 +20,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	metav1 "github.com/external-secrets/external-secrets/apis/meta/v1"
+	metav1 "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 )

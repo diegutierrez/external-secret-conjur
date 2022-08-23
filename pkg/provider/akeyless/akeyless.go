@@ -25,15 +25,15 @@ import (
 	"github.com/akeylesslabs/akeyless-go/v2"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	"github.com/external-secrets/external-secrets/pkg/utils"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	"github.com/diegutierrez/external-secret-conjur/pkg/utils"
 )
 
 const (
 	defaultAPIUrl = "https://api.akeyless.io"
 )
 
-// https://github.com/external-secrets/external-secrets/issues/644
+// https://github.com/diegutierrez/external-secret-conjur/issues/644
 var _ esv1beta1.SecretsClient = &Akeyless{}
 var _ esv1beta1.Provider = &Provider{}
 

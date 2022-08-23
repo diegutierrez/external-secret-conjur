@@ -1,13 +1,13 @@
 ## Project Management
 The Code, our TODOs and Documentation is maintained on
-[GitHub](https://github.com/external-secrets/external-secrets). All Issues
+[GitHub](https://github.com/diegutierrez/external-secret-conjur). All Issues
 should be opened in that repository.
 We have a [Roadmap](roadmap.md) to track progress for our road towards GA.
 
 ## Issues
 
 Features, bugs and any issues regarding the documentation should be filed as
-[GitHub Issue](https://github.com/external-secrets/external-secrets/issues) in
+[GitHub Issue](https://github.com/diegutierrez/external-secret-conjur/issues) in
 our repository. We use labels like `kind/feature`, `kind/bug`, `area/aws` to
 organize the issues. Issues labeled `good first issue` and `help wanted` are
 especially good for a first contribution. If you want to pick up an issue just
@@ -138,7 +138,7 @@ Providing support to end users is an important and difficult task.
 We have three different channels through which support questions arise:
 
 1. Kubernetes Slack [#external-secrets](https://kubernetes.slack.com/archives/C017BF84G2Y)
-2. [GitHub Discussions](https://github.com/external-secrets/external-secrets/discussions)
+2. [GitHub Discussions](https://github.com/diegutierrez/external-secret-conjur/discussions)
 3. GitHub Issues
 
 We use labels to identify GitHub Issues. Specifically for managing support cases we use the following labels to identify the state a support case is in:

@@ -19,7 +19,7 @@ import (
 	// nolint
 	. "github.com/onsi/ginkgo/v2"
 
-	"github.com/external-secrets/external-secrets/e2e/framework/addon"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework/addon"
 )
 
 const (

@@ -33,12 +33,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	esv1alpha1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1alpha1"
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	"github.com/external-secrets/external-secrets/pkg/controllers/clusterexternalsecret"
-	"github.com/external-secrets/external-secrets/pkg/controllers/externalsecret"
-	"github.com/external-secrets/external-secrets/pkg/controllers/secretstore"
-	awsauth "github.com/external-secrets/external-secrets/pkg/provider/aws/auth"
+	esv1alpha1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1alpha1"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	"github.com/diegutierrez/external-secret-conjur/pkg/controllers/clusterexternalsecret"
+	"github.com/diegutierrez/external-secret-conjur/pkg/controllers/externalsecret"
+	"github.com/diegutierrez/external-secret-conjur/pkg/controllers/secretstore"
+	awsauth "github.com/diegutierrez/external-secret-conjur/pkg/provider/aws/auth"
 )
 
 var (

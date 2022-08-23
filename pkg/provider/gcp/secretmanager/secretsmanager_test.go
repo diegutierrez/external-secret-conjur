@@ -23,9 +23,9 @@ import (
 	secretmanagerpb "google.golang.org/genproto/googleapis/cloud/secretmanager/v1"
 	"k8s.io/utils/pointer"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	v1 "github.com/external-secrets/external-secrets/apis/meta/v1"
-	fakesm "github.com/external-secrets/external-secrets/pkg/provider/gcp/secretmanager/fake"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	v1 "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
+	fakesm "github.com/diegutierrez/external-secret-conjur/pkg/provider/gcp/secretmanager/fake"
 )
 
 type secretManagerTestCase struct {

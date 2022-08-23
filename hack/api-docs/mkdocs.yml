@@ -1,5 +1,5 @@
 site_name: External Secrets Operator
-repo_url: https://github.com/external-secrets/external-secrets
+repo_url: https://github.com/diegutierrez/external-secret-conjur
 repo_name: External Secrets Operator
 site_dir: ../../site
 docs_dir: ../../docs

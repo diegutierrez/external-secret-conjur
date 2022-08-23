@@ -35,9 +35,9 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	kclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	"github.com/external-secrets/external-secrets/pkg/find"
-	"github.com/external-secrets/external-secrets/pkg/utils"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	"github.com/diegutierrez/external-secret-conjur/pkg/find"
+	"github.com/diegutierrez/external-secret-conjur/pkg/utils"
 )
 
 const (
@@ -83,7 +83,7 @@ type GoogleSecretManagerClient interface {
 */
 var useMu = sync.Mutex{}
 
-// https://github.com/external-secrets/external-secrets/issues/644
+// https://github.com/diegutierrez/external-secret-conjur/issues/644
 var _ esv1beta1.SecretsClient = &ProviderGCP{}
 var _ esv1beta1.Provider = &ProviderGCP{}
 

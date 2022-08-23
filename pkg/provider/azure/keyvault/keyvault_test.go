@@ -25,10 +25,10 @@ import (
 	"github.com/Azure/azure-sdk-for-go/services/keyvault/2016-10-01/keyvault"
 	"k8s.io/utils/pointer"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	v1 "github.com/external-secrets/external-secrets/apis/meta/v1"
-	fake "github.com/external-secrets/external-secrets/pkg/provider/azure/keyvault/fake"
-	utils "github.com/external-secrets/external-secrets/pkg/utils"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	v1 "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
+	fake "github.com/diegutierrez/external-secret-conjur/pkg/provider/azure/keyvault/fake"
+	utils "github.com/diegutierrez/external-secret-conjur/pkg/utils"
 )
 
 type secretManagerTestCase struct {

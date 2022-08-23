@@ -41,7 +41,7 @@ We provide assistance for deploying/upgrading etc. on a best-effort basis. You c
 
 * [Kubernetes Slack
   #external-secrets](https://kubernetes.slack.com/messages/external-secrets)
-* GitHub [Issues](https://github.com/external-secrets/external-secrets/issues)
-* GitHub [Discussions](https://github.com/external-secrets/external-secrets/discussions)
+* GitHub [Issues](https://github.com/diegutierrez/external-secret-conjur/issues)
+* GitHub [Discussions](https://github.com/diegutierrez/external-secret-conjur/discussions)
 
 Even though we have active maintainers and people assigned to this project, we kindly ask for patience when asking for support. We will try to get to priority issues as fast as possible, but there may be some delays.

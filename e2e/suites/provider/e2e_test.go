@@ -21,9 +21,9 @@ import (
 	// nolint
 	. "github.com/onsi/gomega"
 
-	"github.com/external-secrets/external-secrets/e2e/framework/addon"
-	"github.com/external-secrets/external-secrets/e2e/framework/util"
-	_ "github.com/external-secrets/external-secrets/e2e/suites/provider/cases"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework/addon"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework/util"
+	_ "github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases"
 )
 
 var _ = SynchronizedBeforeSuite(func() []byte {

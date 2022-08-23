@@ -78,7 +78,7 @@ golicenses.check: ## Check install of go-licenses
 
 license.check: golicenses.check
 	@$(INFO) running dependency license checks
-	@ok=0; go-licenses csv github.com/external-secrets/external-secrets 2>/dev/null | \
+	@ok=0; go-licenses csv github.com/diegutierrez/external-secret-conjur 2>/dev/null | \
 	 grep -v -E '${LICENSES}' | \
 	 tr "," " " | awk '{print "Invalid License " $$3 " for dependency " $$1 }'|| ok=1; \
 	 if [[ $$ok -eq 1 ]]; then $(OK) dependencies are compliant; else $(FAIL); fi

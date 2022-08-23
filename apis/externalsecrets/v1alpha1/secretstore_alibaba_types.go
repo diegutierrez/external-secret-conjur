@@ -15,7 +15,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	esmeta "github.com/external-secrets/external-secrets/apis/meta/v1"
+	esmeta "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
 )
 
 // AlibabaAuth contains a secretRef for credentials.

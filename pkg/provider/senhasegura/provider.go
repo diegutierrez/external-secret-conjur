@@ -21,12 +21,12 @@ import (
 
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	senhaseguraAuth "github.com/external-secrets/external-secrets/pkg/provider/senhasegura/auth"
-	"github.com/external-secrets/external-secrets/pkg/provider/senhasegura/dsm"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	senhaseguraAuth "github.com/diegutierrez/external-secret-conjur/pkg/provider/senhasegura/auth"
+	"github.com/diegutierrez/external-secret-conjur/pkg/provider/senhasegura/dsm"
 )
 
-// https://github.com/external-secrets/external-secrets/issues/644
+// https://github.com/diegutierrez/external-secret-conjur/issues/644
 var _ esv1beta1.Provider = &Provider{}
 
 // Provider struct that satisfier ESO interface.
@@ -64,7 +64,7 @@ func (p *Provider) NewClient(ctx context.Context, store esv1beta1.GenericStore, 
 
 // Validate store using Validating webhook during secret store creating
 // Checks here are usually the best experience for the user, as the SecretStore will not be created until it is a 'valid' one.
-// https://github.com/external-secrets/external-secrets/pull/830#discussion_r833278518
+// https://github.com/diegutierrez/external-secret-conjur/pull/830#discussion_r833278518
 func (p *Provider) ValidateStore(store esv1beta1.GenericStore) error {
 	return validateStore(store)
 }

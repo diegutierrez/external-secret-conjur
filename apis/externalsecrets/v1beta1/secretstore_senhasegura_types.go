@@ -14,7 +14,7 @@ limitations under the License.
 
 package v1beta1
 
-import esmeta "github.com/external-secrets/external-secrets/apis/meta/v1"
+import esmeta "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
 
 /*
 	SenhaseguraAuth tells the controller how to do auth in senhasegura

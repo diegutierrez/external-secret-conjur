@@ -1,6 +1,6 @@
 domain: io
 multigroup: true
-repo: github.com/external-secrets/external-secrets
+repo: github.com/diegutierrez/external-secret-conjur
 resources:
 - group: external-secrets
   kind: ClusterSecretStore

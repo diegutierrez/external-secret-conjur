@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/external-secrets/external-secrets/pkg/provider/util/fake"
+	"github.com/diegutierrez/external-secret-conjur/pkg/provider/util/fake"
 )
 
 func TestTokenFetcher(t *testing.T) {

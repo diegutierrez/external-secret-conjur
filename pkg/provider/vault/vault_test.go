@@ -30,10 +30,10 @@ import (
 	"k8s.io/utils/pointer"
 	kclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	esmeta "github.com/external-secrets/external-secrets/apis/meta/v1"
-	utilfake "github.com/external-secrets/external-secrets/pkg/provider/util/fake"
-	"github.com/external-secrets/external-secrets/pkg/provider/vault/fake"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	esmeta "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
+	utilfake "github.com/diegutierrez/external-secret-conjur/pkg/provider/util/fake"
+	"github.com/diegutierrez/external-secret-conjur/pkg/provider/vault/fake"
 )
 
 const (

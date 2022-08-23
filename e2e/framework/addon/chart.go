@@ -21,7 +21,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/external-secrets/external-secrets/e2e/framework/log"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework/log"
 )
 
 // HelmChart installs the specified Chart into the cluster.

@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/external-secrets/external-secrets/cmd"
+import "github.com/diegutierrez/external-secret-conjur/cmd"
 
 func main() {
 	cmd.Execute()

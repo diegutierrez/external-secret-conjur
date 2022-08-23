@@ -79,7 +79,7 @@ both AccessKeyID and SecretAccessKey must be defined in order to properly authen
 <td>
 <code>accessKeyIDSecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -90,7 +90,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>secretAccessKeySecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -120,7 +120,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>serviceAccountRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.ServiceAccountSelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.ServiceAccountSelector
 </em>
 </td>
 <td>
@@ -277,7 +277,7 @@ AKEYLESS_ACCESS_TYPE_PARAM: AZURE_OBJ_ID OR GCP_AUDIENCE OR ACCESS_KEY OR KUB_CO
 <td>
 <code>accessID</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -288,7 +288,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>accessType</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -298,7 +298,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>accessTypeParam</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -401,7 +401,7 @@ AlibabaAuthSecretRef
 <td>
 <code>accessKeyIDSecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -412,7 +412,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>accessKeySecretSecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -525,7 +525,7 @@ is ServicePrincipal.</p>
 <td>
 <code>clientId</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -537,7 +537,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>clientSecret</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -622,7 +622,7 @@ AzureKVAuth
 <td>
 <code>serviceAccountRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.ServiceAccountSelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.ServiceAccountSelector
 </em>
 </td>
 <td>
@@ -756,7 +756,7 @@ Can only be defined when used in a ClusterSecretStore.</p>
 <td>
 <code>clientCert</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -766,7 +766,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>clientKey</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -2495,7 +2495,7 @@ GCPWorkloadIdentity
 <td>
 <code>secretAccessKeySecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -2569,7 +2569,7 @@ string
 <td>
 <code>serviceAccountRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.ServiceAccountSelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.ServiceAccountSelector
 </em>
 </td>
 <td>
@@ -2721,7 +2721,7 @@ string
 <td>
 <code>accessToken</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -2843,7 +2843,7 @@ string
 <td>
 <code>secretApiKeySecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -2944,7 +2944,7 @@ TokenAuth
 <td>
 <code>serviceAccount</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.ServiceAccountSelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.ServiceAccountSelector
 </em>
 </td>
 <td>
@@ -3125,7 +3125,7 @@ OnePasswordAuthSecretRef
 <td>
 <code>connectTokenSecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -3318,7 +3318,7 @@ If empty, use the instance principal, otherwise the user credentials specified i
 <td>
 <code>privatekey</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -3329,7 +3329,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>fingerprint</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -4014,7 +4014,7 @@ string
 <td>
 <code>clientSecretSecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -4265,7 +4265,7 @@ string
 <td>
 <code>bearerToken</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -4343,7 +4343,7 @@ up the authentication backend in Vault.</p>
 <td>
 <code>secretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -4378,7 +4378,7 @@ can be specified.</p>
 <td>
 <code>tokenSecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -4485,7 +4485,7 @@ method, with the role name and token stored in a Kubernetes Secret resource.</p>
 <td>
 <code>clientCert</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -4498,7 +4498,7 @@ authentication method</p>
 <td>
 <code>secretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -4556,7 +4556,7 @@ authentication method</p>
 <td>
 <code>secretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -4637,7 +4637,7 @@ string
 <td>
 <code>serviceAccountRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.ServiceAccountSelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.ServiceAccountSelector
 </em>
 </td>
 <td>
@@ -4652,7 +4652,7 @@ the secretRef will be used instead.</p>
 <td>
 <code>secretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -4699,7 +4699,7 @@ Kubernetes service account token retrieved by the <code>TokenRequest</code> API.
 <td>
 <code>serviceAccountRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.ServiceAccountSelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.ServiceAccountSelector
 </em>
 </td>
 <td>
@@ -4783,7 +4783,7 @@ authentication method</p>
 <td>
 <code>secretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -5224,7 +5224,7 @@ string
 <td>
 <code>secretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -5253,7 +5253,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>authorizedKeySecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -5283,7 +5283,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>certSecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -5369,7 +5369,7 @@ YandexCertificateManagerCAProvider
 <td>
 <code>authorizedKeySecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>
@@ -5399,7 +5399,7 @@ github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
 <td>
 <code>certSecretRef</code></br>
 <em>
-github.com/external-secrets/external-secrets/apis/meta/v1.SecretKeySelector
+github.com/diegutierrez/external-secret-conjur/apis/meta/v1.SecretKeySelector
 </em>
 </td>
 <td>

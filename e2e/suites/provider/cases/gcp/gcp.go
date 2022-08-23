@@ -24,9 +24,9 @@ import (
 	p12 "software.sslmate.com/src/go-pkcs12"
 
 	// nolint
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	"github.com/external-secrets/external-secrets/e2e/framework"
-	"github.com/external-secrets/external-secrets/e2e/suites/provider/cases/common"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework"
+	"github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/common"
 )
 
 // This test uses the global ESO.

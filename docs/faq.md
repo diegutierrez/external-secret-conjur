@@ -22,7 +22,7 @@ kubectl get es my-external-secret -o yaml | grep condition -A 5
 ```
 
 ## Differences to csi-secret-store
-Please take a look at this [issue comment here](https://github.com/external-secrets/external-secrets/issues/478#issuecomment-964413129).
+Please take a look at this [issue comment here](https://github.com/diegutierrez/external-secret-conjur/issues/478#issuecomment-964413129).
 
 ## How do i debug an external-secret that doesn't sync?
 

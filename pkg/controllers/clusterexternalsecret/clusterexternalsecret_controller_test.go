@@ -27,8 +27,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	ctest "github.com/external-secrets/external-secrets/pkg/controllers/commontest"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	ctest "github.com/diegutierrez/external-secret-conjur/pkg/controllers/commontest"
 )
 
 var (

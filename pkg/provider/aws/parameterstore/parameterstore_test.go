@@ -23,8 +23,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/ssm"
 	"github.com/google/go-cmp/cmp"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	fake "github.com/external-secrets/external-secrets/pkg/provider/aws/parameterstore/fake"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	fake "github.com/diegutierrez/external-secret-conjur/pkg/provider/aws/parameterstore/fake"
 )
 
 type parameterstoreTestCase struct {

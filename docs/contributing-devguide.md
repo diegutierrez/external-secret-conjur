@@ -4,7 +4,7 @@ You must have a working [Go environment](https://golang.org/doc/install) and
 then clone the repo:
 
 ```shell
-git clone https://github.com/external-secrets/external-secrets.git
+git clone https://github.com/diegutierrez/external-secret-conjur.git
 cd external-secrets
 ```
 

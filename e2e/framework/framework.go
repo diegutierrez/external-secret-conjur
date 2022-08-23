@@ -25,9 +25,9 @@ import (
 	"k8s.io/client-go/rest"
 	crclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/external-secrets/external-secrets/e2e/framework/addon"
-	"github.com/external-secrets/external-secrets/e2e/framework/log"
-	"github.com/external-secrets/external-secrets/e2e/framework/util"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework/addon"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework/log"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework/util"
 )
 
 type Framework struct {

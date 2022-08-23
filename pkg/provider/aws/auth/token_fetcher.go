@@ -29,7 +29,7 @@ type authTokenFetcher struct {
 	Namespace string
 	// Audience is the token aud claim
 	// which is verified by the aws oidc provider
-	// see: https://github.com/external-secrets/external-secrets/issues/1251#issuecomment-1161745849
+	// see: https://github.com/diegutierrez/external-secret-conjur/issues/1251#issuecomment-1161745849
 	Audiences      []string
 	ServiceAccount string
 	k8sClient      corev1.CoreV1Interface

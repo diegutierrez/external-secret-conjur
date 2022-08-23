@@ -22,9 +22,9 @@ import (
 	secrets "github.com/oracle/oci-go-sdk/v56/secrets"
 	utilpointer "k8s.io/utils/pointer"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	v1 "github.com/external-secrets/external-secrets/apis/meta/v1"
-	fakeoracle "github.com/external-secrets/external-secrets/pkg/provider/oracle/fake"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	v1 "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
+	fakeoracle "github.com/diegutierrez/external-secret-conjur/pkg/provider/oracle/fake"
 )
 
 const (

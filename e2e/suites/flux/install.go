@@ -23,7 +23,7 @@ import (
 	// nolint
 	. "github.com/onsi/gomega"
 
-	"github.com/external-secrets/external-secrets/e2e/framework/addon"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework/addon"
 )
 
 const (

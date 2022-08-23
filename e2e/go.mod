@@ -1,4 +1,4 @@
-module github.com/external-secrets/external-secrets-e2e
+module github.com/diegutierrez/external-secret-conjur-e2e
 
 go 1.17
 
@@ -40,7 +40,7 @@ require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1704
 	github.com/argoproj/argo-cd/v2 v2.4.8
 	github.com/aws/aws-sdk-go v1.44.66
-	github.com/external-secrets/external-secrets v0.5.8
+	github.com/diegutierrez/external-secret-conjur v0.5.8
 	github.com/fluxcd/helm-controller/api v0.22.2
 	github.com/fluxcd/pkg/apis/meta v0.14.2
 	github.com/fluxcd/source-controller/api v0.25.11

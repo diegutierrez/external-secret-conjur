@@ -8,8 +8,8 @@ kubeVersion: ">= 1.19.0-0"
 keywords:
   - kubernetes-external-secrets
   - secrets
-home: https://github.com/external-secrets/external-secrets
-icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-logo-large.png
+home: https://github.com/diegutierrez/external-secret-conjur
+icon: https://raw.githubusercontent.com/diegutierrez/external-secret-conjur/main/assets/eso-logo-large.png
 maintainers:
   - name: mcavoyk
     email: kellinmcavoy@gmail.com

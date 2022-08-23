@@ -7,7 +7,7 @@ The external-secrets project is released on a as-needed basis. Feel free to open
 1. Run `Create Release` Action to create a new release, pass in the desired version number to release.
 2. GitHub Release, Changelog will be created by the `release.yml` workflow which also promotes the container image.
 3. update Helm Chart, see below
-4. update OLM bundle, see [helm-operator docs](https://github.com/external-secrets/external-secrets-helm-operator/blob/main/docs/release.md#operatorhubio)
+4. update OLM bundle, see [helm-operator docs](https://github.com/diegutierrez/external-secret-conjur-helm-operator/blob/main/docs/release.md#operatorhubio)
 5. Announce the new release in the `#external-secrets` Kubernetes Slack
 
 ## Release Helm Chart
@@ -24,7 +24,7 @@ To create a bundle first increment the `VERSION` in the Makefile as described ab
 
 ```bash
 # clone repo
-git clone https://github.com/external-secrets/external-secrets-helm-operator
+git clone https://github.com/diegutierrez/external-secret-conjur-helm-operator
 cd external-secrets-helm-operator
 
 # bump version

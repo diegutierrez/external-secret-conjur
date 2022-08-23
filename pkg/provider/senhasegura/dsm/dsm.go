@@ -24,15 +24,15 @@ import (
 	"net/http"
 	"net/url"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	senhaseguraAuth "github.com/external-secrets/external-secrets/pkg/provider/senhasegura/auth"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	senhaseguraAuth "github.com/diegutierrez/external-secret-conjur/pkg/provider/senhasegura/auth"
 )
 
 type clientDSMInterface interface {
 	FetchSecrets() (respObj IsoDappResponse, err error)
 }
 
-// https://github.com/external-secrets/external-secrets/issues/644
+// https://github.com/diegutierrez/external-secret-conjur/issues/644
 var _ esv1beta1.SecretsClient = &DSM{}
 
 /*
@@ -151,7 +151,7 @@ func (dsm *DSM) GetSecretMap(ctx context.Context, ref esv1beta1.ExternalSecretDa
 	GetAllSecrets implements ESO interface and returns multiple secrets from senhasegura provider with DSM service
 
 	TODO: GetAllSecrets functionality is to get secrets from either regexp-matching against the names or via metadata label matching.
-	https://github.com/external-secrets/external-secrets/pull/830#discussion_r858657107
+	https://github.com/diegutierrez/external-secret-conjur/pull/830#discussion_r858657107
 */
 func (dsm *DSM) GetAllSecrets(ctx context.Context, ref esv1beta1.ExternalSecretFind) (secretData map[string][]byte, err error) {
 	return nil, fmt.Errorf("GetAllSecrets not implemented yet")
@@ -216,7 +216,7 @@ func (dsm *DSM) Close(ctx context.Context) error {
 
 // Validate if has valid connection with senhasegura, credentials, authorization using fetchSecrets method
 // fetchSecrets method implement required check about request
-// https://github.com/external-secrets/external-secrets/pull/830#discussion_r833275463
+// https://github.com/diegutierrez/external-secret-conjur/pull/830#discussion_r833275463
 func (dsm *DSM) Validate() (esv1beta1.ValidationResult, error) {
 	_, err := dsm.FetchSecrets()
 	if err != nil {

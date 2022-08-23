@@ -120,7 +120,7 @@ DB_USERNAME='example'
 DB_PASSWORD='example'
 ```
 
-<!-- https://github.com/external-secrets/external-secrets/pull/830#discussion_r858657107 -->
+<!-- https://github.com/diegutierrez/external-secret-conjur/pull/830#discussion_r858657107 -->
 
 <!-- ### Sync all secrets from DSM authorization
 

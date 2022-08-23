@@ -32,10 +32,10 @@ import (
 	kclient "sigs.k8s.io/controller-runtime/pkg/client"
 	clientfake "sigs.k8s.io/controller-runtime/pkg/client/fake"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	esmeta "github.com/external-secrets/external-secrets/apis/meta/v1"
-	"github.com/external-secrets/external-secrets/pkg/provider/aws/parameterstore"
-	"github.com/external-secrets/external-secrets/pkg/provider/aws/secretsmanager"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	esmeta "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
+	"github.com/diegutierrez/external-secret-conjur/pkg/provider/aws/parameterstore"
+	"github.com/diegutierrez/external-secret-conjur/pkg/provider/aws/secretsmanager"
 )
 
 func TestProvider(t *testing.T) {

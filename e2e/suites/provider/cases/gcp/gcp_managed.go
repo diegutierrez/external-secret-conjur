@@ -19,10 +19,10 @@ import (
 
 	// nolint
 	// . "github.com/onsi/gomega"
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	"github.com/external-secrets/external-secrets/e2e/framework"
-	"github.com/external-secrets/external-secrets/e2e/framework/addon"
-	"github.com/external-secrets/external-secrets/e2e/suites/provider/cases/common"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework"
+	"github.com/diegutierrez/external-secret-conjur/e2e/framework/addon"
+	"github.com/diegutierrez/external-secret-conjur/e2e/suites/provider/cases/common"
 )
 
 const (

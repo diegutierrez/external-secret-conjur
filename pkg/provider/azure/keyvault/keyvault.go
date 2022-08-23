@@ -40,9 +40,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	ctrlcfg "sigs.k8s.io/controller-runtime/pkg/client/config"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	smmeta "github.com/external-secrets/external-secrets/apis/meta/v1"
-	"github.com/external-secrets/external-secrets/pkg/utils"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	smmeta "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
+	"github.com/diegutierrez/external-secret-conjur/pkg/utils"
 )
 
 const (
@@ -80,7 +80,7 @@ const (
 	errMissingSAAnnotation    = "missing service account annotation: %s"
 )
 
-// https://github.com/external-secrets/external-secrets/issues/644
+// https://github.com/diegutierrez/external-secret-conjur/issues/644
 var _ esv1beta1.SecretsClient = &Azure{}
 var _ esv1beta1.Provider = &Azure{}
 

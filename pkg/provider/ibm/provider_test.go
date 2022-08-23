@@ -27,9 +27,9 @@ import (
 	utilpointer "k8s.io/utils/pointer"
 	kclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	esv1beta1 "github.com/external-secrets/external-secrets/apis/externalsecrets/v1beta1"
-	v1 "github.com/external-secrets/external-secrets/apis/meta/v1"
-	fakesm "github.com/external-secrets/external-secrets/pkg/provider/ibm/fake"
+	esv1beta1 "github.com/diegutierrez/external-secret-conjur/apis/externalsecrets/v1beta1"
+	v1 "github.com/diegutierrez/external-secret-conjur/apis/meta/v1"
+	fakesm "github.com/diegutierrez/external-secret-conjur/pkg/provider/ibm/fake"
 )
 
 const (
